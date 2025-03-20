@@ -68,23 +68,5 @@ def presente_data(data):
     return  jsonify(dados)
 
 
-
-
-# @app.route('/passado/ano/mes/data/dia', methods=['GET'])
-# def passado():
-#     ano = int('ano')
-#     mes = int('mes')
-#     data = str('data')
-#     dia = int('dia')
-
-
-
-
-
-
-
-
-
-
 if __name__ == '__main__':
     app.run(debug=True)
